@@ -67,7 +67,7 @@ namespace AWSClientTestApp.Controllers
             }
         }
         [HttpPost("/CreateDeletionRules1Time")]
-        public async Task<IActionResult> DeleteRulesPolicyCreation(string bucketName)
+        public async Task<IActionResult> DeleteRulesPolicyCreation(string bucketName) 
         {
             var configurationRequest = new GetLifecycleConfigurationRequest
             {
